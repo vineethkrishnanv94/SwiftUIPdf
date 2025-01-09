@@ -14,6 +14,7 @@
 		35950E5B2D30975A00493ED0 /* SwiftUIPdfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35950E5A2D30975A00493ED0 /* SwiftUIPdfTests.swift */; };
 		35950E652D30975A00493ED0 /* SwiftUIPdfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35950E642D30975A00493ED0 /* SwiftUIPdfUITests.swift */; };
 		35950E672D30975A00493ED0 /* SwiftUIPdfUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35950E662D30975A00493ED0 /* SwiftUIPdfUITestsLaunchTests.swift */; };
+		35950E742D30977600493ED0 /* PDFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35950E732D30977600493ED0 /* PDFView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		35950E602D30975A00493ED0 /* SwiftUIPdfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIPdfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35950E642D30975A00493ED0 /* SwiftUIPdfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPdfUITests.swift; sourceTree = "<group>"; };
 		35950E662D30975A00493ED0 /* SwiftUIPdfUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPdfUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		35950E732D30977600493ED0 /* PDFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				35950E492D30975500493ED0 /* SwiftUIPdfApp.swift */,
 				35950E4B2D30975500493ED0 /* ContentView.swift */,
+				35950E732D30977600493ED0 /* PDFView.swift */,
 				35950E4D2D30975A00493ED0 /* Assets.xcassets */,
 				35950E4F2D30975A00493ED0 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35950E742D30977600493ED0 /* PDFView.swift in Sources */,
 				35950E4C2D30975500493ED0 /* ContentView.swift in Sources */,
 				35950E4A2D30975500493ED0 /* SwiftUIPdfApp.swift in Sources */,
 			);
